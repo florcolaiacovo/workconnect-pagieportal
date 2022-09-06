@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.padre{
+    /* Search Field */
+
+
+    position: absolute;
+    width: 624px;
+    height: 51px;
+    left: 285px;
+    top: 22px;
+
+
+}
+.card{
+    /* Field */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 624px;
+    height: 51px;
+    left: 285px;
+    top: 22px;
+
+    /* Values/White */
+
+    background: #FFFFFF;
+    /* Values/Light Gray */
+
+    border: 2px solid #EAEBEE;
+    border-radius: 40px;
+}
+.seach{
+    /* Enter jobs, skills, etc. */
+
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    left: 308px;
+    top: 38px;
+
+    /* Regular, Light/Notifications */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    /* Values/Dark Gray */
+    color: #B3B1B4;
+}
+.icon{
+        /* Search */
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 860px;
+    top: 37px;
+
+}

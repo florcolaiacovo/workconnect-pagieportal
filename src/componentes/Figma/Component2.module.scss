@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.father{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    .text{
+        padding-left: 23px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-bottom: 0px;
+        height: 24px;
+
+        /* Regular, Light/Subtitle */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 24px;
+        /* identical to box height, or 126% */
+
+
+        /* Values/Dark Gray */
+
+        color: #B3B1B4;
+    }
+}

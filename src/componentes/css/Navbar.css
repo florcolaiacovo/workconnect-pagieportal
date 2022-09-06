@@ -1,0 +1,9 @@
+.activeClass {
+    color: red;
+    text-decoration: none;
+}
+
+.inactiveClass{
+    color: black;
+    text-decoration: none;
+}

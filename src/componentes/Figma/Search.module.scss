@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.father{
+    display: flex;
+    flex-direction: row;
+
+    .box{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    .search{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+   
+        /* Field */
+
+        box-sizing: border-box;
+
+        min-width: 75%;
+        /*width: 624px;*/
+        width: max-content;
+        height: 51px;
+        margin-top: 22px;
+
+        /* Values/White */
+        background: #FFFFFF;
+        /* Values/Light Gray */
+        border: 2px solid #EAEBEE;
+        border-radius: 40px;
+        .text1{
+            margin-left: 23px;
+            margin-bottom: 0px;
+            /* Enter jobs, skills, etc. */
+
+            width: 130px;
+            height: 20px;
+
+            /* Regular, Light/Notifications */
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            /* identical to box height, or 143% */
+
+            /* Values/Dark Gray */
+            color: #B3B1B4;
+        }
+        .iconSearch{
+            margin-right: 27px;
+            /* Search */
+            width: 22px;
+            height: 22px;
+            /* Values/Dark Gray */
+            color: #B3B1B4;
+
+        }
+
+    }
+    .buttonSearch{
+        border: none;
+        /* Rectangle 39 */
+        
+        min-width: 15%;
+        height: 52px;
+        margin-top: 21px;
+        margin-left: 16px;
+
+        /* Colours/Navy */
+        background: #142157;
+        border-radius: 32px;
+
+
+        /* Regular, Light/Buttons */
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        
+        /* Values/White */
+        color: #FFFFFF;
+    }
+}
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+
+.padre{
+
+    /* BG */
+
+    position: absolute;
+    width: 280px;
+    height: 578px;
+    left: 1120px;
+    top: 22px;
+
+    /* Values/White */
+    background: #FFFFFF;
+    /* Standart Shadow */
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+.azul1{
+    /* Widget Name */
+
+    position: absolute;
+    width: 280px;
+    height: 52px;
+    left: 1120px;
+    top: 21px;
+
+    /* Colours/Main Blue */
+    background: #107ACC;
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.title{
+        /* Filters */
+
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    left: 1226px;
+    top: 32px;
+
+    /* Bold/H2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    text-align: center;
+
+    /* Values/White */
+    color: #FFFFFF;
+}
+.op1{
+    /* Since yesterday */
+
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    left: 1147px;
+    top: 94px;
+
+    /* Regular, Light/Body Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    /* Values/Jade */
+    color: #001A24;
+
+    }
+    .op2{
+        /* Since yesterday */
+
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    left: 1147px;
+    top: 135px;
+
+    /* Regular, Light/Body Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    /* Values/Jade */
+    color: #001A24;
+
+
+    }
+    .op3{
+        /* Since yesterday */
+
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    left: 1147px;
+    top: 176px;
+
+    /* Regular, Light/Body Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    /* Values/Jade */
+    color: #001A24;
+    }
+
+.op4{
+    /* Since yesterday */
+
+    position: absolute;
+    width: 89px;
+    height: 20px;
+    left: 1147px;
+    top:217px;
+
+    /* Regular, Light/Body Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    /* Values/Jade */
+    color: #001A24;
+
+
+}
+    .op5{
+        /* Since yesterday */
+
+        position: absolute;
+        width: 81px;
+        height: 20px;
+        left: 1147px;
+        top: 258px;
+
+        /* Regular, Light/Body Text */
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+
+        /* Values/Jade */
+        color: #001A24;
+
+
+}
+
+.sl1{
+    position: absolute;
+    width: 36px;
+    height: 18px;
+    left: 1339px;
+    top: 95px;
+
+}
+
+.sl2{
+    /* Toggle Off */
+
+
+position: absolute;
+width: 36px;
+height: 18px;
+left: 1339px;
+top: 136px;
+}
+.img2{
+    /* Line */
+
+position: absolute;
+width: 280px;
+height: 0px;
+left: 1120px;
+top: 310px;
+
+/* Values/Light Gray */
+border: 2px solid #EAEBEE;
+
+}
