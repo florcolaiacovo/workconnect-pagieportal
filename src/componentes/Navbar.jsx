@@ -15,7 +15,7 @@ const Navbar = () => {
         <NavLink to="/ej3" className="activeClass">Ejemplo 3 Props</NavLink>
         <NavLink to="/comp">Esto es un componente</NavLink>
         <NavLink to="/figma">Figma</NavLink>
-        <NavLink to="/figma2">Figma - Pagie Portal</NavLink>
+    <NavLink to="/">Figma - Pagie Portal</NavLink>
             
         </div>
     );

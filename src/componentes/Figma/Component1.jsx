@@ -1,14 +1,26 @@
 import React from 'react'
+import './Component1.css'
 import styles from './Component1.module.scss'
 import Blue from '../../elements/Blue.svg'
 import User from '../../elements/User.svg'
 import Card from '../../elements/Card.svg'
 import Out from '../../elements/Out.svg'
 import Noti from '../../elements/Notification.svg'
+import NotiWhite from '../../elements/NotiWhite.svg'
 import Inbox from '../../elements/Chat.svg'
+import ChatWhite from '../../elements/ChatWhite.svg'
 import Adv from '../../elements/Advertisement.svg'
+import AdvBlack from '../../elements/AdvertBlack.svg'
+import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
 
 export default function Component1() {
+
+const [advButton, setAdvButton] = useState(true);
+const [notiButton, setNotiButton] = useState(false);
+const [inboxButton, setInboxButton] = useState(false);
+
+
   return (
     <div className={`${styles.father}`}>
       <div 
@@ -20,28 +32,37 @@ export default function Component1() {
 
       {/*cominza box 2*/}
       <div className={styles.box2}>
-        <button className={styles.item1}>
-            <img src={Adv}/>
-            <h3 className={styles.title1}>Advertisements</h3>
-        </button>
-        <button className={styles.items}>
-            <img  src={Noti}
-                  className={styles.itemBlack}/>
-          <h3 className={styles.titleBlack}>Notifications</h3>
-        </button>
+        <NavLink to='/advert' 
+                  onClick={ () => {setAdvButton(true); setNotiButton(false); setInboxButton(false) }}
 
-        <button className={styles.items}>
+                  className={advButton ? `${styles.item1}` : `${styles.items}`} >
+            <img src={advButton ? Adv : AdvBlack}/>
+            <h3 className={advButton ? `${styles.title1}` : `${styles.titleBlack}`}>Advertisements</h3>
+        </NavLink>
+        <NavLink to='/noti'
+                  onClick={ () => {setAdvButton(false); setNotiButton(true); setInboxButton(false) }}
+                  className={notiButton ? `${styles.item1}` : `${styles.items}`} >
+            <img  src={notiButton ? NotiWhite : Noti}
+                  className={notiButton ? `${styles.itemWhite}` : `${styles.itemBlack}`}/>
+          <h3 className={notiButton ? `${styles.title1}` : `${styles.titleBlack}`}>Notifications</h3>
+        </NavLink>
+
+        <NavLink to='/inbox' 
+                onClick={() => {setAdvButton(false); setNotiButton (false); setInboxButton(true)}}
+                className={inboxButton ? `${styles.item1}` : `${styles.items}`} >
           <img className={styles.itemBlack}
-                src={Inbox}/>
-          <h3 className={styles.titleBlack}>Inbox</h3>
-        </button>
+                src={inboxButton ? ChatWhite : Inbox}/>
+          <h3 className={inboxButton ? `${styles.title1}` : `${styles.titleBlack}`}>Inbox</h3>
+        </NavLink>
 
-        <button className={`${styles.items} ${styles.lastItem}`}>
+        <NavLink to='/profile'
+                  
+                  className={`${styles.items} ${styles.lastItem}`}>
           <img src={User} 
                 className={styles.itemBlack}
                 alt="user"></img>
           <h3 className={styles.titleBlack}>Profile</h3>
-        </button>
+        </NavLink>
 
         {/*aca termina box 2*/}
 

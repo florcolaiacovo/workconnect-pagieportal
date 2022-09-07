@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.padre {
+  /* Card */
+  position: absolute;
+  width: 800px;
+  height: 190px;
+  left: 285px;
+  top: 359px;
+  /* Values/White */
+  background: #FFFFFF;
+  /* Standart Shadow */
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.title {
+  /* Project Manager for Development Team */
+  position: absolute;
+  width: 429px;
+  height: 30px;
+  left: 308px;
+  top: 381px;
+  /* Bold/H2 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  /* Colours/Main Blue */
+  color: #107ACC;
+}
+
+.description {
+  /* Sample Tech, Inc. */
+  position: absolute;
+  width: 146px;
+  height: 24px;
+  left: 308px;
+  top: 424px;
+  /* Regular, Light/Subtitle */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height, or 126% */
+  /* Values/Jade */
+  color: #001A24;
+}
+
+.icon1 {
+  /* Work */
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 308px;
+  top: 499px;
+}
+
+.subtitle1 {
+  /* Full-Time (Remote) */
+  position: absolute;
+  width: 139px;
+  height: 20px;
+  left: 345px;
+  top: 499px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/Dark Gray */
+  color: #B3B1B4;
+}
+
+.icon2 {
+  /* Marker */
+  position: absolute;
+  width: 16.67px;
+  height: 20px;
+  left: 515px;
+  top: 499px;
+}
+
+.subtitle2 {
+  /* Groningen */
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  left: 549px;
+  top: 499px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/Dark Gray */
+  color: #B3B1B4;
+}
+
+.icon3 {
+  /* Clock */
+  position: absolute;
+  width: 19.72px;
+  height: 20px;
+  left: 657px;
+  top: 499px;
+}
+
+.subtitle3 {
+  /* Aug. 1, 2022, 3:00 pm */
+  position: absolute;
+  width: 156px;
+  height: 20px;
+  left: 694px;
+  top: 499px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/Dark Gray */
+  color: #B3B1B4;
+}
+
+.eye {
+  /* Eye */
+  position: absolute;
+  width: 23px;
+  height: 18px;
+  left: 982px;
+  top: 387px;
+}
+
+.apply {
+  /* APPLY */
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  left: 1017px;
+  top: 386px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.06em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-transform: uppercase;
+  /* Colours/CTA Magenta */
+  color: #F14281;
+}
+
+.line {
+  /* Div */
+  position: absolute;
+  width: 800px;
+  height: 0px;
+  left: 285px;
+  top: 475px;
+  /* Values/Light Gray */
+  border: 2px solid #EAEBEE;
+}/*# sourceMappingURL=Card2.module.css.map */

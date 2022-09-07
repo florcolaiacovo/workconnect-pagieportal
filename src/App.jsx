@@ -13,6 +13,11 @@ import {
 //import AlwaysOpenExample from './componentes/ComponenteFuncion' borrado, importado de react-bootstrap
 //import WithLabelExample from './componentes/ProgressBar' idem
 import Figma2 from './componentes/Figma/Figma2'
+import Advertisements from './componentes/Figma/pages/Advertisements'
+import Navbar from './componentes/Navbar'
+import Inbox from './componentes/Figma/pages/Inbox'
+import Notifications from './componentes/Figma/pages/Notifications'
+import Profile from './componentes/Figma/pages/Profile'
 
 function App() {
 
@@ -21,10 +26,14 @@ function App() {
     <div>
      <BrowserRouter>
      {/*<Navbar/>*/}
+        <Figma2/>
+
     <Routes>
-      <Route path="/" element={<h1>ruta de prueba</h1>}>
-      </Route>
-      <Route path='/figma-pagie' element={<Figma2/>}/>
+      <Route path='/profile' element={<Profile/>}/>
+      <Route path='/inbox' element={<Inbox/>}/>
+      <Route path='/noti' element={<Notifications/>}/>
+      <Route path='/navbar' element={<Navbar/>}/>
+      <Route path='/advert' element={<Advertisements/>}/>
       <Route path="/rutanueva" element={<Componente/>}/>
       <Route path="/ej1" element={<EjProp1 saludo="prop"/>}/>
       <Route path="/ej2" element={<EjProp2 comp={"propiedad de componente"}/>}/>
@@ -38,9 +47,9 @@ function App() {
         funcion={num => num*num}
         componenteReact={<Componente> Este es el children del componente</Componente>}/>}/>
         <Route path='/comp' element={<Componente />}/>
+      <Route path='/advertisements' element={<Advertisements/>}/>
     </Routes>
   </BrowserRouter>
-
       {/**Es ComponenteFuncion.jsx */}
       {/*<AlwaysOpenExample/>*/}
       {/**PrgressBar.jsx */}

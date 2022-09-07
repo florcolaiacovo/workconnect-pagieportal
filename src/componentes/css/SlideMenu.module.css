@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.padre {
+  position: absolute;
+  width: 250px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+}
+.padre .icon1 {
+  z-index: 1;
+  position: absolute;
+  left: 40px;
+  top: 125px;
+}
+.padre .letraNegra {
+  /* Advertisements */
+  /* Notifications */
+  z-index: 1;
+  position: absolute;
+  width: 92px;
+  height: 20px;
+  left: 86px;
+  top: 180px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/Jade */
+  color: #001A24;
+}
+.padre .icon2 {
+  z-index: 1;
+  /* Notification */
+  position: absolute;
+  width: 22.36px;
+  height: 24px;
+  left: 41px;
+  top: 178px;
+}
+.padre .titulo1 {
+  z-index: 1;
+  /* Advertisements */
+  position: absolute;
+  width: 114px;
+  height: 20px;
+  left: 86px;
+  top: 127px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/White */
+  color: #FFFFFF;
+}
+.padre .icon3 {
+  z-index: 1;
+  /* Chat */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 40px;
+  top: 232px;
+}
+.padre .titulo3 {
+  z-index: 1;
+  /* Inbox */
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  left: 86px;
+  top: 234px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/Jade */
+  color: #001A24;
+}
+.padre .icon4 {
+  z-index: 1;
+  /* User */
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  left: 43px;
+  top: 286px;
+}
+.padre .titulo4 {
+  z-index: 1;
+  /* Profile */
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 86px;
+  top: 288px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Values/Jade */
+  color: #001A24;
+}
+.padre .line {
+  z-index: 1;
+  /* Div 2 */
+  position: absolute;
+  width: 250px;
+  height: 0px;
+  left: 0px;
+  top: 427px;
+  /* Values/Light Gray */
+  border: 1.7px solid #EAEBEE;
+}
+.padre .icon5 {
+  z-index: 1;
+  /* Out */
+  position: absolute;
+  width: 23.34px;
+  height: 24px;
+  left: 40px;
+  top: 452px;
+}
+.padre .titulo5 {
+  z-index: 1;
+  /* Log Out */
+  position: absolute;
+  width: 57px;
+  height: 20px;
+  left: 86px;
+  top: 454px;
+  /* Bold/Emphasis */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+}
+.padre .card {
+  /* BG */
+  position: absolute;
+  width: 250px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  /* Values/White */
+  background: #FFFFFF;
+  /* Standart Shadow */
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 0px 16px 16px 0px;
+}
+.padre .card .img1 {
+  /* Blue */
+  position: absolute;
+  width: 169px;
+  height: 23px;
+  left: 40px;
+  top: 46px;
+}
+
+.el1 {
+  /* Active */
+  position: absolute;
+  width: 250px;
+  height: 54px;
+  left: 0px;
+  top: 110px;
+  /* Colours/Main Blue */
+  background: #107ACC;
+}/*# sourceMappingURL=SlideMenu.module.css.map */

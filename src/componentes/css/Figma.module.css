@@ -1,0 +1,49 @@
+fondo { /* Results Feed */
+  width: 1440px;
+  height: 1024px;
+  /* Values/Super Light */
+  background: #F6FCFF;
+}
+fondo .subtitle {
+  /* Showing 233 results */
+  position: absolute;
+  width: 169px;
+  height: 24px;
+  left: 308px;
+  top: 97px;
+  /* Regular, Light/Subtitle */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height, or 126% */
+  /* Values/Dark Gray */
+  color: #B3B1B4;
+}
+fondo .buttonSeach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Regular, Light/Buttons */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Values/White */
+  color: #FFFFFF;
+  /* Rectangle 39 */
+  position: absolute;
+  width: 160px;
+  height: 52px;
+  left: 925px;
+  top: 21px;
+  /* Colours/Navy */
+  background: #142157;
+  border-radius: 32px;
+}/*# sourceMappingURL=Figma.module.css.map */
