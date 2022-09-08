@@ -3,8 +3,10 @@ import './Component1.css'
 import styles from './Component1.module.scss'
 import Blue from '../../elements/Blue.svg'
 import User from '../../elements/User.svg'
+import UserWhite from '../../elements/UserWhite.svg'
 import Card from '../../elements/Card.svg'
 import Out from '../../elements/Out.svg'
+import OutWhite from '../../elements/OutWhite.svg'
 import Noti from '../../elements/Notification.svg'
 import NotiWhite from '../../elements/NotiWhite.svg'
 import Inbox from '../../elements/Chat.svg'
@@ -19,6 +21,8 @@ export default function Component1() {
 const [advButton, setAdvButton] = useState(true);
 const [notiButton, setNotiButton] = useState(false);
 const [inboxButton, setInboxButton] = useState(false);
+const [profileButton, setProfileButton] = useState(false);
+const [logoutButton, setLogoutButton] = useState(false);
 
 
   return (
@@ -33,22 +37,21 @@ const [inboxButton, setInboxButton] = useState(false);
       {/*cominza box 2*/}
       <div className={styles.box2}>
         <NavLink to='/advert' 
-                  onClick={ () => {setAdvButton(true); setNotiButton(false); setInboxButton(false) }}
+                  onClick={ () => {setAdvButton(true); setNotiButton(false); setInboxButton(false); setProfileButton(false); setLogoutButton(false) }}
 
                   className={advButton ? `${styles.item1}` : `${styles.items}`} >
             <img src={advButton ? Adv : AdvBlack}/>
             <h3 className={advButton ? `${styles.title1}` : `${styles.titleBlack}`}>Advertisements</h3>
         </NavLink>
         <NavLink to='/noti'
-                  onClick={ () => {setAdvButton(false); setNotiButton(true); setInboxButton(false) }}
+                  onClick={ () => {setAdvButton(false); setNotiButton(true); setInboxButton(false); setProfileButton(false); setLogoutButton(false) }}
                   className={notiButton ? `${styles.item1}` : `${styles.items}`} >
-            <img  src={notiButton ? NotiWhite : Noti}
-                  className={notiButton ? `${styles.itemWhite}` : `${styles.itemBlack}`}/>
+            <img  src={notiButton ? NotiWhite : Noti}/>
           <h3 className={notiButton ? `${styles.title1}` : `${styles.titleBlack}`}>Notifications</h3>
         </NavLink>
 
         <NavLink to='/inbox' 
-                onClick={() => {setAdvButton(false); setNotiButton (false); setInboxButton(true)}}
+                onClick={() => {setAdvButton(false); setNotiButton (false); setInboxButton(true); setProfileButton(false); setLogoutButton(false)}}
                 className={inboxButton ? `${styles.item1}` : `${styles.items}`} >
           <img className={styles.itemBlack}
                 src={inboxButton ? ChatWhite : Inbox}/>
@@ -56,12 +59,11 @@ const [inboxButton, setInboxButton] = useState(false);
         </NavLink>
 
         <NavLink to='/profile'
-                  
-                  className={`${styles.items} ${styles.lastItem}`}>
-          <img src={User} 
-                className={styles.itemBlack}
+                  onClick={() => {setAdvButton(false); setNotiButton(false); setInboxButton(false); setProfileButton(true); setLogoutButton(false)} }
+                  className={profileButton ? `${styles.item1}` : `${styles.items}`} >
+          <img src={profileButton ? UserWhite : User}
                 alt="user"></img>
-          <h3 className={styles.titleBlack}>Profile</h3>
+          <h3 className={profileButton ? `${styles.title1}` : `${styles.titleBlack}`}>Profile</h3>
         </NavLink>
 
         {/*aca termina box 2*/}
@@ -69,11 +71,13 @@ const [inboxButton, setInboxButton] = useState(false);
         <img src={Card} className={styles.line}></img>
         
 
-        <button className={`${styles.items} ${styles.lastItem}`}>
-          <img src={Out} className={styles.itemBlack}/>
+        <NavLink to='/logout'
+                onClick={() => {setAdvButton(false); setNotiButton(false); setInboxButton(false); setProfileButton(false); setLogoutButton(true) }}
+                className={logoutButton ? `${styles.item1}` : `${styles.items}`} >
+          <img src={logoutButton ? OutWhite: Out}/>
 
-          <h3 className={styles.titleBlack}>Log Out</h3>
-        </button>
+          <h3 className={logoutButton ? `${styles.title1}` : `${styles.titleBlack}`}>Log Out</h3>
+        </NavLink>
       </div>
     </div>
   )
